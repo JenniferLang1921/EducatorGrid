@@ -24,7 +24,7 @@ tr:hover {
     background-color: lightblue !important;
 }
 
-#message {
+.message {
    
     position: relative;
     

@@ -18,11 +18,20 @@ h1 {
     background: rgb(91, 92, 94);
     color: white;
     font-weight: normal !important;
+    
 }
-/*tr:hover {
+tr:hover {
     background-color: lightblue !important;
 }
-*/
+
+#message {
+   
+    position: relative;
+    
+    
+}
+
+
 
 
 /*toggle switch original-disabled*/

@@ -63,6 +63,8 @@ h1 {
     transition: all 0.3s ease-in-out;
     width: 24px;
 }
+
+/*having this blocked out disables the switch*/
 /*
 .material-switch > input[type="checkbox"]:checked + label::before {
     background: green;

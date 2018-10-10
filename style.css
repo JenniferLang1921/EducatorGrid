@@ -12,6 +12,14 @@ h1 {
     width: 50%;
 }
 
+.btn-sm {
+    padding: 10px 10px;
+    background: rgb(0,0,205);
+    color: white;
+    border-radius: 10px;
+    height: 40px !important;
+}
+
 /*Table*/
 
 #tableHeaderRow {
@@ -20,15 +28,15 @@ h1 {
     font-weight: normal !important;
     
 }
-tr:hover {
+/*tr:hover {
     background-color: lightblue !important;
 }
+*/
 
 .message {
-   
     position: relative;
-    
-    
+    left: 60px;
+    bottom: 100px;
 }
 
 

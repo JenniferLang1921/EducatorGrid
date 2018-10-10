@@ -1,26 +1,31 @@
+
+/*Header Info*/
 h1 {
     margin: 50px;
     text-align: center;
 }
 
-input {
-    margin-right: 40px;
+#header {
     margin-bottom: 50px;
-    margin-left: 20px;
+}
+#completeInputs {
+    width: 50%;
 }
 
-#stateslabel, #assessmentprogramlabel {
-    margin-right: 60px;
-    margin-left: 20px;
-    
-}
+/*Table*/
 
-.border {
-    width: 100px;
-    height: 100px;
+#tableHeaderRow {
+    background: rgb(91, 92, 94);
+    color: white;
+    font-weight: normal !important;
 }
+/*tr:hover {
+    background-color: lightblue !important;
+}
+*/
 
-/*toggle switch*/
+
+/*toggle switch original-disabled*/
 .material-switch > input[type="checkbox"] {
     display: none;   
 }
@@ -41,9 +46,10 @@ input {
     margin-top: -8px;
     position:absolute;
     opacity: 0.3;
-    transition: all 0.4s ease-in-out;
+    /*transition: all 0.4s ease-in-out;*/
     width: 40px;
 }
+
 .material-switch > label::after {
     background: rgb(255, 255, 255);
     border-radius: 16px;
@@ -57,6 +63,7 @@ input {
     transition: all 0.3s ease-in-out;
     width: 24px;
 }
+/*
 .material-switch > input[type="checkbox"]:checked + label::before {
     background: green;
     opacity: 0.5;
@@ -65,7 +72,55 @@ input {
     background: green;
     left: 20px;
 }
+*/
+
+/*toggle switch color examples for display purpose only*/
   
-  tr:hover {
-      background-color: lightblue !important;
-  }
+
+/*toggle switch enabled blue*/
+.material-enabled > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-enabled > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-enabled > label::before {
+    background: rgb(0,0,205);
+    box-shadow: inset 0px 0px 10px rgba(0,0,205, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-enabled > label::after {
+    background: rgb(0,0,205);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-enabled > input[type="checkbox"]:checked + label::before {
+    background: green;
+    opacity: 0.5;
+}
+.material-enabled > input[type="checkbox"]:checked + label::after {
+    background: green;
+    left: 20px;
+}
+
+

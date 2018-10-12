@@ -200,4 +200,22 @@ h1 {
       margin-top: 0px;
 }
 
+#message {
+    background: white;
+    border: 2px outset grey;
+      padding: 5px;
+      width: 450px;
+      position: relative;
+      top: -600px;
+      left: 345px;
+      
+  
+      
+}
+
+.hidden {
+    visibility: hidden;
+    
+}
+
 

@@ -114,8 +114,8 @@ h1 {
 }
 
 .material-enabled > label::before {
-    background: rgb(140,23,39);
-    box-shadow: inset 0px 0px 10px rgba(140,23,39);
+    background: rgb(242, 210, 50);
+    box-shadow: inset 0px 0px 10px rgba(242, 210, 50);
     border-radius: 8px;
     content: '';
     height: 16px;
@@ -126,7 +126,7 @@ h1 {
     width: 40px;
 }
 .material-enabled > label::after {
-    background: rgb(140,23,39);
+    background: rgb(242, 210, 50);
     border-radius: 16px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     content: '';

@@ -13,11 +13,12 @@ h1 {
 }
 
 .btn-sm {
-    padding: 10px 10px;
-    background: rgb(0,0,205);
+    padding: 0px 10px;
+    background: linear-gradient( rgb(51,153,255), rgb(30,99,165) );
     color: white;
     border-radius: 10px;
-    height: 40px !important;
+    height: 35px !important;
+    width: 75px;
 }
 
 /*Table*/
@@ -37,6 +38,10 @@ h1 {
     position: relative;
     left: 60px;
     bottom: 100px;
+}
+
+.fa-question-circle {
+    color: rgb(242, 210, 50)
 }
 
 
@@ -109,8 +114,8 @@ h1 {
 }
 
 .material-enabled > label::before {
-    background: rgb(0,0,205);
-    box-shadow: inset 0px 0px 10px rgba(0,0,205, 0.5);
+    background: rgb(140,23,39);
+    box-shadow: inset 0px 0px 10px rgba(140,23,39);
     border-radius: 8px;
     content: '';
     height: 16px;
@@ -121,7 +126,7 @@ h1 {
     width: 40px;
 }
 .material-enabled > label::after {
-    background: rgb(0,0,205);
+    background: rgb(140,23,39);
     border-radius: 16px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     content: '';
